@@ -11,7 +11,7 @@ includesBtn.addEventListener('click', () => {
 	/* Pakeiskite includes kintamąjį taip, 
     kad gražintų ar listOfNames masyve yra kintamasis randomName.
     Jei gerai padarysite paspaudus mygtuką tuo atveju kai 
-    vardas yra sąrašų varde užsidegs žaliai, o kai nėra - raudonai
+    vardas yra vardų saraše užsidegs žaliai, o kai nėra - raudonai
     */
 	// JŪSŲ KODAS PRASIDEDA ČIA
 	const includes = false;
