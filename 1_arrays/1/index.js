@@ -7,13 +7,14 @@ const sliced = document.querySelector('#sliced');
 const listOfNames = [ 'Jonas', 'Petras', 'Tomas', 'Kazys', 'Linas' ];
 
 const setNames = (names) => {
-	result.innerText = names.join(', ');
+	result.innerText = `[${names.join(', ')}]`;
 };
 setNames(listOfNames);
 
 popButton.addEventListener('click', () => {
 	// 1. Pašalinkit iš listOfNames elementą iš galo
 	// JŪSŲ KODAS PRASIDEDA ČIA
+
 	// BAGIASI ČIA
 	setNames(listOfNames);
 });
@@ -21,6 +22,7 @@ popButton.addEventListener('click', () => {
 shiftButton.addEventListener('click', () => {
 	// 2. Pašalinkit iš listOfNames elementą iš priekio
 	// JŪSŲ KODAS PRASIDEDA ČIA
+
 	// BAGIASI ČIA
 	setNames(listOfNames);
 });
