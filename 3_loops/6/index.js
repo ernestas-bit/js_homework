@@ -17,6 +17,12 @@
  kol įves skaičių.
 */
 
+/* 
+Patarimai - įvestis bus automatiškai String formatu, tad, jei norėsite su 
+ja daryti kažkokią matematiką reikės pasiversti į skaičių. Paverčiame į skaičių
+naudodami parseInt("...") metodą.
+*/
+
 // KODAS PRASIDEDA ČIA
 
 // BAIGIASI ČIA
