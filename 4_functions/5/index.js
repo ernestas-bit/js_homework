@@ -1,16 +1,14 @@
 const listOfNames = [ 'lukas', 'tomas', 'borisas', 'liepa', 'simas' ];
 /* UŽDUOTIS
 DUOTA: listOfNames string'ų masyvas
-1) Sukurkite funkciją capitalize - ši funkcija turi priimti stringą kaip parametrą
-ir gražinti šį Stringą taip, kad jo pirmoji raidė visada būtų didžioji.
 2) Sukurkite funkciją capitalizeArray - ši funkcija kaip parametrą priims string'ų
 masyvą. 
-2.1) Šios funkcijos viduje naudojant ciklą pakeiskite visus narius naudodami pirmoje
-dalyje aprašytą funkciją, sudėkite juos į naują masyvą ir jį gražinkite
+2.1) Šios funkcijos viduje naudojant ciklą pakeiskite visus narius taip, kad pirmoji
+raidė visada būtų didžioji. Juos sudėkite į naują masyvą ir grąžinkite funkcijoje
 
 (Patarimai: naudoti string slice metodą)
 */
 
 // KODAS PRASIDEDA ČIA
-
+function capitalizeArray() {}
 // BAIGIASI ČIA
