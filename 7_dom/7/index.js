@@ -24,14 +24,13 @@ function createCard(imageSrc, ...) {
 2) Sukurkite kintamąjį cards
 2.1) Šiame kintamąjame išsaugokite naują masyvą naudodami map funkciją ant 
 people masyvo, ir kiekvienam elementui pakvieskite createCard funkciją su 
-atitinkamais duomenimis iš data.js 
+atitinkamais duomenimis iš people masyvo 
 
 const cards = people.map(function(person) {
     return createCard(pasiekiamPersonImageSrc, etc...)
 })
 
-3) Iteruojame per cards masyvą su bet kuriuo ciklu ir įdedami card į divą
+3) Iteruojame per cards masyvą su bet kuriuo ciklu ir įdedam card į divą
 su id "container"
-
 
 */
