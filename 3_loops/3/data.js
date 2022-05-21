@@ -1,4 +1,4 @@
-export const animals = [
+const animals = [
 	'Aardvark',
 	'Aardwolf',
 	'African Elephant',
@@ -312,4 +312,4 @@ export const animals = [
 	'Zebra',
 	'Zebu',
 	'Zorilla'
-];
+]

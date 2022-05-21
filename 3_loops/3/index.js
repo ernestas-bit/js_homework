@@ -1,4 +1,5 @@
-import { animals } from './data.js';
+// const animals = require('./data.js')
+console.log(animals)
 /* UŽDUOTIS
 DUOTA: gyvūnų masyvas (galite pažiūrėti data.js);
 Naudodami ciklą suraskite masyve esančius gyvūnus, kurių pavadinimas prasideda
