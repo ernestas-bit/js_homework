@@ -12,3 +12,7 @@ duotą funkcija
 
 const getRandomPokemonImgSrc = (num) =>
 	`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${num}.svg`
+
+// KODAS PRASIDEDA ČIA
+
+// BAIGIASI ČIA
