@@ -1,4 +1,4 @@
-export const listOfNames = [
+const listOfRandomNames = [
 	'Ruth',
 	'Jackson',
 	'Debra',
@@ -27,15 +27,15 @@ export const listOfNames = [
 	'Diaz',
 	'Wanda',
 	'Thomas'
-];
+]
 
-export const generateListOfNames = (length) => {
-	let names = [];
+const generateListOfNames = (length) => {
+	let names = []
 	for (let i = 0; i <= length; i++) {
-		const randomIndex = Math.floor(Math.random() * listOfNames.length);
-		names.push(listOfNames[randomIndex]);
+		const randomIndex = Math.floor(Math.random() * listOfRandomNames.length)
+		names.push(listOfRandomNames[randomIndex])
 	}
-	return names;
-};
+	return names
+}
 
-export const getRandomName = () => listOfNames[Math.floor(Math.random() * listOfNames.length)];
+const getRandomName = () => listOfRandomNames[Math.floor(Math.random() * listOfRandomNames.length)]

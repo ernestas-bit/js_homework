@@ -1,4 +1,4 @@
-console.log(animals)
+// console.log(animals)
 /* UŽDUOTIS
 DUOTA: gyvūnų masyvas (galite pažiūrėti data.js);
 Naudodami ciklą suraskite masyve esančius gyvūnus, kurių pavadinimas prasideda
