@@ -1,5 +1,5 @@
 /* UŽDUOTIS - naudodami masyvų metodus ištraukite reikiamą informaciją
-DUOTA - 10 žmonių duomenų masyvas
+DUOTA - 10 atsitiktinių žmonių duomenų masyvas
 1) Suraskite kiek vyrų yra masyve ir išsaugokite kintamąjame maleCount
 2) Sukurkite naują masyvą listOfFullNames ir naudodami map jame išsaugokite
 žmonių Vardą ir pavardę sujungtus ["Rayan Clement", ... ]
