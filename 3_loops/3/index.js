@@ -1,4 +1,3 @@
-// const animals = require('./data.js')
 console.log(animals)
 /* UŽDUOTIS
 DUOTA: gyvūnų masyvas (galite pažiūrėti data.js);
