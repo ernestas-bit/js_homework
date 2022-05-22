@@ -10,8 +10,9 @@ duotą funkcija
 
 */
 
-const getRandomPokemonImgSrc = (num) =>
-	`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${num}.svg`
+function getRandomPokemonImgSrc(num) {
+	return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${num}.svg`
+}
 
 // KODAS PRASIDEDA ČIA
 

@@ -1,23 +1,19 @@
-/* UŽDUOTIS - ištrinti kortelę paspaudus delete mygtuką
-1) Parašykite selektorių, kuris paselectins visus mygtukus su klase "btn" ir
-priskirkite ją jau sukurtam kintamąjam buttons
-2) Ištrinkite btn tėvinį elementą
-Gerai atlikus užduotį paspaudus delete HTML'e - kortelė išnyks
+/* UŽDUOTIS - baigikite rašyti createCard funkciją ir ją panaudokite
+DUOTA - HTML'e rasite card pavyzdį
+1) Ši funkcija turėtų sukurti tokį patį HTML card kaip pavyzdyje ir gražinti 
+sukurtą div'ą
+2) Paveikslėlius ir tekstą galite įdėti kokius norite
+3) Panaudokite funkciją ir įdėkite sukurtą kortelę į div'ą su id container
+*4) Pabandykite sukurti funkciją su parametrais - paduokite į funkciją tekstus, 
+paveikslėlio src, ir kitą informaciją, kuri gali keistis per parametrus
+*4.1) Įdėkite į div'ą su id container kelias korteles kviesdami createCard 
+funkciją su skirtingais parametrais
 */
-const container = document.querySelector('#container')
 
-const init = async () => {
-	await generateCards()
+// KODAS PRASIDEDA ČIA
 
-	// 1 Dalis - KODAS PRASIDEDA ČIA
-	const buttons = []
-	// BAIGIASI ČIA
-
-	for (let btn of buttons) {
-		btn.addEventListener('click', () => {
-			// 2 Dalis - KODAS PRASIDEDA ČIA
-			// BAIGIASI ČIA
-		})
-	}
+function createCard() {
+	return null
 }
-init()
+
+// BAIGIASI ČIA
