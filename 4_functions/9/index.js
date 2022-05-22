@@ -5,8 +5,6 @@
 4) Jei dalinasi ir iš 3 ir iš 5 - išspausdinkite FizzBuzz
 5) Kitu atveju tiesiog išspausdinkite indeksą
 
- 
-
 */
 
 function fizzBuzz() {}
