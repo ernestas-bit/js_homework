@@ -11,7 +11,8 @@ ir reikšmę išsaugokite kintamuosiuose
 konsolėje. Taip pat išspausdinkite žodį("SUCCESS!")
 3) Apsupkite funkcijos viduje esantį kodą try catch bloku 
 4) catch blok'e pasiekite errorą ir į konsolę išspausdinkite
-
+"ERROR",
+"...(patį errorą)..."
 */
 
 const fakeRequest = (url) => {
