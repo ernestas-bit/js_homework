@@ -18,7 +18,11 @@ Matematiką susiraskite wikipedijoje
 
 // KODAS PRASIDEDA ČIA
 
-function triangle() {
+function triangle(x, y, z) {
+	if (x === y && x === z) {
+		return 'Lygiakraštis'
+	}
+
 	return 'Tai ne trikampis'
 }
 

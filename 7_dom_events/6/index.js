@@ -1,17 +1,13 @@
-/* UŽDUOTIS - padarykite paiešką žmonių kortelėms esančioms HTML'e 
-1) Paselectinkite visus h4 (būtinai padarykite iš jų tikrą masyvą)
-const cards = Array.from(document... selectorius)
-2) Uždėkite searchui 'input' event listenerį 
-3) Event'o funkcijos viduje iteruokite per korteles ir uždėkite klasę hidden 
-tom's kortelėms(ne h4'ams), kurių h4 tekst'as neincludina search'o value, 
-o kitoms nuimkite
-*/
+/*  UŽDUOTIS - mini projektas, darbas su duomenimis 
+DUOTA - masyvas data su atsitikinių žmonių duomenimis 
+1) Susiraskite/sukurkite kortelių dizainą atvaizduoti duomenims 
+(duomenyse rasite image, amžių, pasirinkite ką norėsite atvaizduoti) 
+2) Panaudokite map ir išsitraukite į masyvą tik tuos duomenis kurių jums reikės
+3) Atvaizduokite duomenis HTML'e
+4) Padarykite search by first/lastname funkcionalumą 
+5) Įdėkite selectą, kuris filtruos pagal kažkokią savybę (gender, age) - pasirinkite 
+patys.
+6) Padarykite kokį nors delete mygtuką, kuris ištrins kortelę
+7)** Padarykite sort funkcionalumą, kuris išrykiuos korteles pagal abėcėlę
 
-const h4s = Array.from(document.querySelectorAll('h4'))
-const search = document.querySelector('#search')
-search.addEventListener('input', () => {
-	for (let h4 of h4s) {
-		const isCardShown = !h4.innerText.toLowerCase().includes(search.value.toLowerCase())
-		isCardShown ? h4.parentElement.classList.add('hidden') : h4.parentElement.classList.remove('hidden')
-	}
-})
+*/
